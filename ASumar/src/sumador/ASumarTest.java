@@ -9,7 +9,7 @@ public class ASumarTest {
 	@Test
 	public void testUnaCifra() {
 		ASumar sum1= new ASumar();
-		int resultado = sum1.total("5");
+		int resultado = sum1.total("7");
 		assertEquals("5=5", resultado);
 		ASumar sum2= new ASumar();
 		int resultado2 = sum2.total("12");
